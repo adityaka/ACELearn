@@ -6,5 +6,5 @@ message(${ACE_ROOT})
 include_directories(${ACE_ROOT})
 link_directories(${ACE_ROOT}/lib)
 
-add_executable(helloace helloace.cpp)
+add_executable(helloace.cpp)
 target_link_libraries(helloace ACE)

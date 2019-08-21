@@ -12,7 +12,7 @@
 1. perl for MPC to configure the ACE Project 
 1. make (any version)
 
-## Build procedure 
+## Manual Build procedure 
 1. Set ```MPC_ROOT=$HOME/src/MPC```
 1. Use MPC to generate the project files
 	1.  ```$ACE_ROOT/bin/mwc.pl --type gnuace ACE.mwc``` 
@@ -30,9 +30,10 @@
 	1. make -j 4 (use the number of CPUs I used 2 instead of 4)
 	2. if make -j 4 fails you can try make clean and make
 1. Install ACE
-	1. export INSTALL_PREFIX=<path to install>
+	1. ```export INSTALL_PREFIX=<path to install>```
 	2. sudo make install
 
+## Automated Build
 
 
 
