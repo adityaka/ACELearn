@@ -21,6 +21,11 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
+      "environments": [
+        {
+          "ACE_ROOT": "/home/kapura1/src/oss/ACE_TAO/ACE"
+        }
+      ],
       "inheritEnvironments": [ "linux_x64" ],
       "remoteMachineName": "${defaultRemoteMachineName}",
       "remoteCMakeListsRoot": "$HOME/.vs/${projectDirName}/${workspaceHash}/src",
