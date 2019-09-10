@@ -12,3 +12,6 @@ ACE/*
 *.o
 *.a
 venv/
+.vs/
+out/
+*/*/out/
